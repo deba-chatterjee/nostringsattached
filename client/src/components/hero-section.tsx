@@ -30,16 +30,18 @@ export default function HeroSection() {
           <span className="text-accent-color">Brew</span> | <span className="text-white">Bites</span> | <span className="text-primary-color">Bliss</span>
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
-          <Button 
+          <Button
             onClick={() => scrollToSection("menu")}
-            className="bg-primary-color hover:bg-[#6ba680] text-white font-semibold py-3 px-8 rounded-full transition duration-300 ease-in-out transform hover:scale-105">
+            className="bg-primary-color hover:bg-[#6ba680] text-white font-semibold py-3 px-8 rounded-full transition duration-300 ease-in-out transform hover:scale-105"
+          >
             View Our Menu
           </Button>
-          <Button 
-            onClick={() => scrollToSection("contact")}
+          <Button
+            onClick={() => scrollToSection("gallery")}
             variant="outline"
-            className="bg-transparent border-2 border-white hover:bg-white hover:text-secondary-color text-white font-semibold py-3 px-8 rounded-full transition duration-300 ease-in-out transform hover:scale-105">
-            Contact Us
+            className="bg-transparent border-2 border-white hover:bg-white hover:text-secondary-color text-white font-semibold py-3 px-8 rounded-full transition duration-300 ease-in-out transform hover:scale-105"
+          >
+            View Gallery
           </Button>
         </div>
       </div>

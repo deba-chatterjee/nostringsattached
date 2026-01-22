@@ -44,14 +44,11 @@ export default function Footer() {
               <li><button onClick={() => scrollToSection("menu")} className="text-gray-300 hover:text-primary-color transition-colors">Menu</button></li>
               <li><button onClick={() => scrollToSection("about")} className="text-gray-300 hover:text-primary-color transition-colors">About Us</button></li>
               <li><button onClick={() => scrollToSection("gallery")} className="text-gray-300 hover:text-primary-color transition-colors">Gallery</button></li>
-              <li><button onClick={() => scrollToSection("contact")} className="text-gray-300 hover:text-primary-color transition-colors">Contact</button></li>
-              <li><a href="#" className="text-gray-300 hover:text-primary-color transition-colors">Privacy Policy</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-primary-color transition-colors">Terms & Conditions</a></li>
             </ul>
           </div>
           
           <div>
-            <h3 className="text-xl font-semibold mb-6">Contact Info</h3>
+            <h3 className="text-xl font-semibold mb-6">Visit Us</h3>
             <ul className="space-y-4">
               <li className="flex items-start">
                 <i className="fas fa-map-marker-alt mt-1 mr-3 text-primary-color"></i>

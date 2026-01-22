@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { Link } from "wouter";
 import logoImage from "@/assets/nsa-logo-dark-text.png";
 
 export default function Navbar() {
@@ -56,7 +55,6 @@ export default function Navbar() {
             <button onClick={() => scrollToSection("menu")} className="font-medium text-gray-700 hover:text-primary-color transition">Menu</button>
             <button onClick={() => scrollToSection("about")} className="font-medium text-gray-700 hover:text-primary-color transition">About</button>
             <button onClick={() => scrollToSection("gallery")} className="font-medium text-gray-700 hover:text-primary-color transition">Gallery</button>
-            <button onClick={() => scrollToSection("contact")} className="font-medium text-gray-700 hover:text-primary-color transition">Contact</button>
           </div>
           
           {/* Mobile Menu Button */}
@@ -74,7 +72,6 @@ export default function Navbar() {
             <button onClick={() => scrollToSection("menu")} className="font-medium text-gray-700 hover:text-primary-color transition">Menu</button>
             <button onClick={() => scrollToSection("about")} className="font-medium text-gray-700 hover:text-primary-color transition">About</button>
             <button onClick={() => scrollToSection("gallery")} className="font-medium text-gray-700 hover:text-primary-color transition">Gallery</button>
-            <button onClick={() => scrollToSection("contact")} className="font-medium text-gray-700 hover:text-primary-color transition">Contact</button>
           </div>
         </div>
       </div>

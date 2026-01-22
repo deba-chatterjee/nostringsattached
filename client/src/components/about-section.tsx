@@ -1,8 +1,8 @@
 import { Button } from "@/components/ui/button";
 
 export default function AboutSection() {
-  const scrollToContact = () => {
-    const element = document.getElementById("contact");
+  const scrollToMenu = () => {
+    const element = document.getElementById("menu");
     if (element) {
       window.scrollTo({
         top: element.offsetTop - 80,
@@ -25,10 +25,10 @@ export default function AboutSection() {
             </p>
             <div className="mt-8">
               <Button
-                onClick={scrollToContact}
+                onClick={scrollToMenu}
                 className="bg-primary-color hover:bg-[#6ba680] text-white font-semibold py-3 px-8 rounded-full transition duration-300 ease-in-out transform hover:scale-105"
               >
-                Contact Us
+                View Menu
               </Button>
             </div>
           </div>
