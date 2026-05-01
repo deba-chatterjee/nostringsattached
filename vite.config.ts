@@ -3,7 +3,9 @@ import react from "@vitejs/plugin-react";
 import path from "path";
 
 export default defineConfig({
-  base: "/",
+  base: process.env.GITHUB_REPOSITORY === 'neel-c1/nostringsattached' 
+    ? '/nostringsattached/' 
+    : '/',
   plugins: [react()],
   resolve: {
     alias: {
