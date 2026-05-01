@@ -21,7 +21,7 @@ function App() {
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
         <Toaster />
-        <Router>
+        <Router base={import.meta.env.BASE_URL.replace(/\/$/, '')}>
           <AppRouter />
         </Router>
       </TooltipProvider>
